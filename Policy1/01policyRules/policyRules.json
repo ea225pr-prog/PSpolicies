@@ -1,0 +1,13 @@
+{
+  "if": {
+    "field": "type",
+    "equals": "Microsoft.HybridCompute/machines"
+  },
+  "then": {
+    "effect": "AuditIfNotExists",
+    "details": {
+      "type": "Microsoft.GuestConfiguration/guestConfigurationAssignments",
+      "existenceScope": "subscription"
+    }
+  }
+}

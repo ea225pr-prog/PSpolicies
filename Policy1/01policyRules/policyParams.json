@@ -1,0 +1,10 @@
+{
+  "guestConfigurationName": {
+    "type": "String",
+    "value": "AuditWMFVersion"
+  },
+  "contentUri": {
+    "type": "String",
+    "value": "https://storagepolicies1991.blob.core.windows.net/policies/AuditWMFVersion.zip"
+  }
+}
